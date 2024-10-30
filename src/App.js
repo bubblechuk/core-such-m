@@ -7,7 +7,11 @@ function App() {
   return (
     <div className="main">
       <Header/>
+      <div class="mainContent">
+        <div id="grad_left"></div>
       <Main/>
+      <div id="grad_right"></div>
+      </div>
       <Footer/>
     </div>
   );

@@ -1,11 +1,4 @@
-.main {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: gray;
-}
-.mainContent {
+.mainPage {
     height: 100vh;
     width: 1000px;
     background-color: white;
