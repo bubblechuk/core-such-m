@@ -9,10 +9,21 @@
 }
 #grad_right, #grad_left {
   width: calc((100% - 1000px) / 2);
-  background-color: black;
+  background-color: gray;
   height: 100vh;
 }
-#grad_right {
+.slick-arrow.slick-prev {
+  padding-left: 35px;
+  z-index: 99;
+}
+.slick-arrow.slick-next {
+  padding-right: 55px;
+  z-index: 99;
+}
+ul.slick-dots {
+  margin-bottom: 40px;
+}
+/* #grad_right {
   background: #ffffff;
 background: linear-gradient(90deg,#ffffff 0%, rgb(0,0,0,0) 10%);
 
@@ -20,4 +31,4 @@ background: linear-gradient(90deg,#ffffff 0%, rgb(0,0,0,0) 10%);
 #grad_left {
   background: #ffffff;
 background: linear-gradient(270deg,#ffffff 0%, rgb(0,0,0,0) 10%);
-}
+} */
