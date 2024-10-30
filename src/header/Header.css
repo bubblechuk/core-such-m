@@ -1,0 +1,33 @@
+.header {
+    background-color: darkorange;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerLogo, .headerMenu {
+    margin-left: 25px;
+}
+.headerLogo {
+    font-size: 36px;
+}
+.headerMenu {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.headerBlock {
+    width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+}
+.headerMenuImage {
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+}
+@media (max-width: 1000px) {
+
+}
